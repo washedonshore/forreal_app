@@ -1,0 +1,51 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    border: 3px darkcyan solid;
+}
+
+.fullTaskBox {
+    display: flex;
+    flex-direction: column;
+    border: 3px red solid;
+}
+
+.battery {
+    height: 30px;
+    width: 30px;
+}
+
+.plusButton {
+    background-color: white;
+    border: none;
+    margin-left:3px;
+}
+
+.plusButtonImg:hover {
+    background: lightcoral;
+    border-radius: 80px;
+    height: 30px;
+    width: 30px;
+    margin-left: 3px;
+}
+
+.plusButtonImg {
+    height: 30px;
+    width: 30px;
+}
+
+.addTaskBar {
+    display: flex;
+    justify-content: flex-end;
+    border: 3px pink solid;
+}
+
+.enterItem {
+    display: flex;
+}
+
+.statusBar {
+    display: flex;
+}
+
